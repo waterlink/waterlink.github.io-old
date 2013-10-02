@@ -1,0 +1,24 @@
+
+%nav.top-bar
+  %ul.title-area
+    %li.name
+      %h1
+        %a{ href: '/' }= render 'views/short_title.txt'
+    %li.toggle-topbar.menu-icon
+      %a{ href: "#" }
+        %span
+
+  %section.top-bar-section
+    %ul.left
+      %li.divider
+      - actions.each do |current|
+        %li{ class: current == action ? 'active' : '' }
+          %a{ href: "#{current}.html" }= current.humanize
+        %li.divider
+    %ul.right.hide-for-small
+      %li
+        %a{ href: '/' }= data('personal')['name']
+      %li
+        %img{ src: "#{data('personal')['avatar']}?s=45" }
+
+

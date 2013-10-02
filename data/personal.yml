@@ -1,0 +1,34 @@
+name: Alexey Fedorov
+avatar: http://www.gravatar.com/avatar/46f189bd4d408504b874a49f611929ac.png
+contacts:
+  email:
+    title: 'waterlink000@gmail.com'
+    link: 'mailto:waterlink000@gmail.com'
+  phone:
+    title: '+38 (099) 303-95-36'
+    link: 'tel:+380993039536'
+  skype:
+    title: 'waterlink000'
+    link: 'skype:waterlink000?chat'
+  github:
+    title: 'github.com/waterlink'
+    link: 'https://github.com/waterlink'
+  bitbucket:
+    title: 'bitbucket.org/waterlink'
+    link: 'https://bitbucket.org/waterlink'
+  twitter:
+    title: 'twitter.com/waterlink000'
+    link: 'https://twitter.com/waterlink000'
+  facebook:
+    title: 'facebook.com/waterlink000'
+    link: 'https://www.facebook.com/waterlink000'
+  coderwall:
+    title: 'coderwall.com/waterlink000'
+    link: 'https://coderwall.com/waterlink000'
+  topcoder:
+    title: 'topcoder.com/tc/WaterLink'
+    link: 'http://community.topcoder.com/tc?module=MemberProfile&cr=22834027'
+  codeforces:
+    title: 'codeforces.com/profile/waterlink'
+    link: 'http://codeforces.com/profile/waterlink'
+
