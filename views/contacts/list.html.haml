@@ -1,0 +1,10 @@
+%ul.side-nav
+  %li.divider
+    - data('personal')['contacts'].each do |key, value|
+      %li
+        .row
+          .small-4.text-right.columns= key.humanize
+          .small-8.columns
+            %a{ href: value['link'] }= value['title']
+      %li.divider
+
